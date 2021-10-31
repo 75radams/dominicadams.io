@@ -1,0 +1,113 @@
+
+video#myVideo {
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+	position: fixed;
+	margin-top: 10;
+}
+
+body {
+	background: black;
+}
+
+h1 {
+	color: #00ff7f;
+	text-align: center;
+	position: absolute;
+	left: 0%;
+	top: 50%;
+	width: 100%;
+	font-size: 70px;
+	overflow-x: hidden;
+}
+
+h2 {
+	position: absolute;
+	color: #00ff7f;
+	text-align: center;
+	font-size: 25px;
+	width: 100%;
+	left: 25%;
+	top: 15%;
+	overflow-x: hidden;
+}
+
+#quote {
+	color: #00ff7f;
+	width: 50%;
+	text-align: left;
+	font-size: 35px;
+	padding-right: 30;
+	padding-top: 40;
+	overflow-x: hidden;
+}
+
+#author {
+	position: absolute;
+	left: 60%;
+	top: 30%;
+	width: 200px;
+	font-size: 25px;
+	overflow-x: hidden;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+li {
+	float: right;
+
+}
+
+#siteName {
+	float: left;
+}
+
+a {
+	padding: 30px;
+	font-size: 30px;
+	color: #00ff7f;
+	text-decoration: none;
+	font-family: "Noto Sans", sans-serif;
+
+}
+
+a:hover {
+	color: white;
+
+}
+
+#dominic {
+	font-size: 100px;
+	padding: 0;
+}
+
+#adams {
+	font-size: 100px;
+	padding: 0;
+}
+
+p {
+	color: dimgrey;
+	position: absolute;
+	text-align: left;
+	margin: 40px;
+	width: 33%;
+}
+
+#empty {
+	width: 100%;
+	position: fixed;
+	padding-top: 60;
+}
+
+
+h2#tit {
+	font-size: 30px;
+	color: dimgray;
+}
