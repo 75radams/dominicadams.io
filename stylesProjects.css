@@ -41,7 +41,7 @@ a:hover {
 }
 
 h3 {
-	color: dimgrey;
+	color: whitesmoke;
 	font-size: 35px;
 	margin-top: 20;
 	text-align: center;
@@ -50,12 +50,15 @@ h3 {
 
 h2 {
 	font-size: 50px;
-	color: dimgrey;
+	color: whitesmoke;
 	text-align: center;
 	margin-bottom: 70px;
 }
 
 h1 {
+	text-align: center;
+	position: relative;
+	margin-top: 250pt;
 	color: #00ff7f;
 
 }
@@ -64,9 +67,4 @@ h1 {
 	display: block;
 	margin: 0 auto;
 
-}
-
-section {
-	background-color: white;
-	margin: 15%;
 }
