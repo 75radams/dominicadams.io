@@ -11,6 +11,13 @@ body {
 	background: black;
 }
 
+img {
+	width: 100%;
+	position: fixed;
+
+
+}
+
 h1 {
 	color: #00ff7f;
 	text-align: center;
