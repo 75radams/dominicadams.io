@@ -24,7 +24,7 @@ h1 {
 }
 
 
-ul {
+#head {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -32,12 +32,13 @@ ul {
 	width: 100%;
 	top: 5%;
 	left: 1%;
+	
 
 }
 
-li {
-	float: right;
 
+#title {
+	transition: 0.75s;
 }
 
 #siteName {
@@ -52,10 +53,6 @@ a {
 	transition: 0.75s;
 }
 
-#title2 {
-	opacity: 1;
-	transform: translate(0, 0);
-}
 
 #hidTitle {
 	opacity: 0;

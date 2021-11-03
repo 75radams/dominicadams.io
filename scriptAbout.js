@@ -8,7 +8,6 @@ function headerScrollFunction() {
     if (document.body.scrollTop > 125 || document.documentElement.scrollTop > 125) {
         document.getElementById("header").style.fontSize = "65px";
         document.getElementById("title").style.fontSize = "20px";
-
     } else {
         document.getElementById("header").style.fontSize = "100px";
         document.getElementById("title").style.fontSize = "30px";
