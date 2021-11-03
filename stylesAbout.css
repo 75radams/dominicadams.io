@@ -103,12 +103,12 @@ section {
 
 }
 #Who {
-	left: 10%;
+	left: 5%;
 	top: 100%;
 	transition: 0.75s;
 }
 
 #CM {
-	right: 10%;
+	right: 5%;
 	top: 185%;
 }
