@@ -19,15 +19,19 @@ img {
 }
 
 h1 {
-	color: #00ff7f;
+	padding: 30px;
+	top: 35%;
+	left: 15%;
+	font-size: 120px;
+	font-weight: 900;
 	text-align: center;
 	position: absolute;
-	left: 0%;
-	top: 35%;
-	width: 100%;
-	font-size: 70px;
-	overflow-x: hidden;
+	color: #00ff7f;
+	text-decoration: none;
+	font-family: sans-serif;
+	transition: 0.75s;
 }
+
 
 h2 {
 	position: absolute;
@@ -75,11 +79,16 @@ li {
 }
 
 a {
-	padding: 30px;
-	font-size: 30px;
+	padding: 20px;
+	top: 35%;
+	left: 15%;
+	font-size: 120px;
+	font-weight: 900;
+	text-align: center;
+	position: absolute;
 	color: #00ff7f;
 	text-decoration: none;
-	font-family: "Noto Sans", sans-serif;
+	font-family: sans-serif;
 
 }
 
@@ -89,31 +98,17 @@ a:hover {
 }
 
 #dominic {
-	font-size: 100px;
-	padding: 0;
+
 }
 
 #adams {
-	font-size: 100px;
-	padding: 0;
+	top: 50%
 }
 
-p {
-	color: dimgrey;
-	position: absolute;
-	text-align: left;
-	margin: 40px;
-	width: 33%;
+#aboutX {
+	display: none;
 }
 
-#empty {
-	width: 100%;
-	position: fixed;
-	padding-top: 60;
-}
-
-
-h2#tit {
-	font-size: 30px;
-	color: dimgray;
+#projectsX {
+	display: none;
 }
