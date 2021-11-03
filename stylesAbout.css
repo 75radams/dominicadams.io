@@ -90,7 +90,7 @@ img {
 
 h2 {
 	font-size: 55px;
-	color: white;
+	color: whitesmoke;
 	font-family: "Noto Sans", sans-serif;
 }
 
@@ -100,15 +100,17 @@ section {
 	margin: 40px;
 	padding: 30px;
 	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0;
 
 }
 #Who {
 	left: 5%;
-	top: 100%;
+	top: 90%;
 	transition: 0.75s;
 }
 
 #CM {
 	right: 5%;
-	top: 185%;
+	top: 175%;
+	transition: 0.75s;
 }

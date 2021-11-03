@@ -12,14 +12,29 @@ function headerScrollFunction() {
     }
 }
 
+function sectionScrollFunction() {
+  if (document.body.scrollTop > 225 || document.documentElement.scrollTop > 225) {
+      document.getElementById("Who").style.opacity = 1;
+  } else {
+      document.getElementById("Who").style.opacity = 0;
+  }
 
-$(document).ready(function() {
-    $(document).scroll(function() {
-    if ($(document).body.scrollTop > 250 || $(document).documentElement.scrollTop > 250) {
-      $("#Who").fadeIn("slow");
-    } else {
-      $("#Who").fadeOut("slow");
-    }
 
-  });
-});
+  if (document.body.scrollTop > 825 || document.documentElement.scrollTop > 825) {
+      document.getElementById("CM").style.opacity = 1;
+  } else {
+      document.getElementById("CM").style.opacity = 0;
+  }
+}
+
+
+// $(document).ready(function() {
+//     $(document).scroll(function() {
+//     if ($(document).body.scrollTop > 250 || $(document).documentElement.scrollTop > 250) {
+//       $("#Who").fadeIn("slow");
+//     } else {
+//       $("#Who").fadeOut("slow");
+//     }
+
+//   });
+// });
