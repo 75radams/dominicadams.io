@@ -18,7 +18,7 @@ img {
 
 }
 
-h1 {
+/* h1 {
 	padding: 30px;
 	top: 35%;
 	left: 15%;
@@ -27,11 +27,30 @@ h1 {
 	text-align: center;
 	position: absolute;
 	color: #00ff7f;
-	text-decoration: none;
 	font-family: sans-serif;
 	transition: 0.75s;
+} */
+
+h1 {
+	top: 35%;
+	left: 0%;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	color: #00ff7f;
+	font-family: "Noto Sans", sans-serif;
+	font-size: 70px;
 }
 
+
+h2 {
+	position: absolute;
+	color: whitesmoke;
+	top: 70%;
+	font-size: 40px;
+	width: 100%;
+	text-align: center;
+}
 
 a {
 	padding: 20px;
