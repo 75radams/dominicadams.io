@@ -33,51 +33,6 @@ h1 {
 }
 
 
-h2 {
-	position: absolute;
-	color: whitesmoke;
-	text-align: center;
-	font-size: 40px;
-	width: 100%;
-	top: 70%;
-	overflow-x: hidden;
-}
-
-#quote {
-	color: #00ff7f;
-	width: 50%;
-	text-align: left;
-	font-size: 35px;
-	padding-right: 30;
-	padding-top: 40;
-	overflow-x: hidden;
-}
-
-#author {
-	position: absolute;
-	left: 60%;
-	top: 30%;
-	width: 200px;
-	font-size: 25px;
-	overflow-x: hidden;
-}
-
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-
-}
-
-li {
-	float: right;
-
-}
-
-#siteName {
-	float: left;
-}
-
 a {
 	padding: 20px;
 	top: 35%;
@@ -94,10 +49,7 @@ a {
 
 a:hover {
 	color: white;
-
-}
-
-#dominic {
+	transition: 0.75s;
 
 }
 
@@ -105,10 +57,3 @@ a:hover {
 	top: 50%
 }
 
-#aboutX {
-	display: none;
-}
-
-#projectsX {
-	display: none;
-}
