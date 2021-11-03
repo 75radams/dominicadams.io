@@ -28,7 +28,7 @@ a {
 	font-size: 30px;
 	color: #00ff7f;
 	text-decoration: none;
-	font-family: 
+	font-family: "Noto Sans", sans-serif;
 }
 
 a:hover {
@@ -60,6 +60,8 @@ h1 {
 	position: relative;
 	margin-top: 250pt;
 	color: #00ff7f;
+	font-family: "Noto Sans", sans-serif;
+	font-size: 100px;
 
 }
 

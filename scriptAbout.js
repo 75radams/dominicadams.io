@@ -26,15 +26,3 @@ function sectionScrollFunction() {
       document.getElementById("CM").style.opacity = 0;
   }
 }
-
-
-// $(document).ready(function() {
-//     $(document).scroll(function() {
-//     if ($(document).body.scrollTop > 250 || $(document).documentElement.scrollTop > 250) {
-//       $("#Who").fadeIn("slow");
-//     } else {
-//       $("#Who").fadeOut("slow");
-//     }
-
-//   });
-// });
