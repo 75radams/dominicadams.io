@@ -7,9 +7,11 @@ window.onscroll = function() {
 function headerScrollFunction() {
     if (document.body.scrollTop > 125 || document.documentElement.scrollTop > 125) {
         document.getElementById("header").style.fontSize = "65px";
+        document.getElementById("title").innerHTML = "DOMINIC";
         document.getElementById("title").style.fontSize = "20px";
     } else {
-        document.getElementById("header").style.fontSize = "100px";
+        document.getElementById("header").style.fontSize = "120px";
+        document.getElementById("title").innerHTML = "DOMINIC ADAMS"
         document.getElementById("title").style.fontSize = "30px";
         
     }
@@ -34,5 +36,14 @@ function sectionScrollFunction() {
       document.getElementById("SKILLS").style.opacity = 1;
   } else {
       document.getElementById("SKILLS").style.opacity = 0;
+  }
+
+
+  if (document.body.scrollTop > 2100 || document.documentElement.scrollTop > 2100) {
+      document.getElementById("projects").style.opacity = 1;
+      document.getElementById("projects").style.right = "20%";
+  } else {
+      document.getElementById("projects").style.opacity = 0;
+      document.getElementById("projects").style.right = "-20%";
   }
 }

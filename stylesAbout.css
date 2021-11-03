@@ -18,7 +18,7 @@ h1 {
 	left: 0%;
 	top: 40%;
 	width: 100%;
-	font-size: 100px;
+	font-size: 120px;
 	font-family: "Noto Sans", sans-serif;
 	transition: 0.75s;
 }
@@ -101,6 +101,13 @@ h2 {
 	font-family: "Noto Sans", sans-serif;
 }
 
+h3 {
+	font-size: 30px;
+	color: #00ff7f;
+	font-family: "Noto Sans", sans-serif;
+	text-align: center;
+}
+
 section {
 	position: absolute;
 	width: 33%;
@@ -126,6 +133,15 @@ section {
 	left: 5%;
 	top: 260%;
 	transition: 0.75s;
+}
+
+#projects {
+	width: 15%;
+	top: 285%;
+	right: -10%;
+	padding: 0px 10px;
+	transition: 0.75s;
+
 }
 
 #whitespace {
