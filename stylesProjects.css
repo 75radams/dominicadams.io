@@ -3,17 +3,21 @@ body {
 	background: black;
 }
 
-ul {
+#head {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	background-color: rgba(0, 0, 0, 0.8);
-	width: 100%;
 	position: fixed;
-	top: 0%;
+	width: 100%;
+	top: 5%;
+	left: 1%;
+	
 
 }
 
+#title {
+	transition: 0.75s;
+}
 
 #siteName {
 	float: left;
@@ -32,10 +36,6 @@ a:hover {
 
 }
 
-#active {
-	text-decoration: line-through;
-}
-
 h3 {
 	color: whitesmoke;
 	font-size: 35px;
@@ -45,24 +45,68 @@ h3 {
 }
 
 h2 {
-	font-size: 50px;
+	font-size: 35px;
 	color: whitesmoke;
-	text-align: center;
-	margin-bottom: 70px;
+	margin-bottom: 20px;
+	font-family: "Noto Sans", sans-serif;
 }
 
 h1 {
-	text-align: center;
 	position: relative;
-	margin-top: 250pt;
+	top: 5%;
 	color: #00ff7f;
 	font-family: "Noto Sans", sans-serif;
 	font-size: 120px;
+	overflow-x: hidden;
+}
+
+#header {
+	left: -50%;
+	transition: 0.75s;
+}
+
+
+h2:hover {
+	color: #00ff7f;
+	transition: 0.75s;
+	cursor: pointer;
+}
+
+p {
+	color: whitesmoke;
+	font-size: 25px;
 
 }
 
-#visuals {
-	display: block;
-	margin: 0 auto;
+#p1 {
+	display: none;
+	opacity: 0;
+	transition: 0.75s;
+}
 
+section {
+	position: relative;
+	width: 40%;
+	left: 50%;
+	margin: 10px;
+	margin-bottom: 15px;
+	padding: 15px;
+	opacity: 1;
+	text-align: right;
+	text-align: left;
+	overflow-x: hidden;
+}
+
+#games {
+	opacity: 0;
+	transition: 0.75s;
+}
+
+#WebDev {
+	opacity: 0;
+	transition: 0.75s;
+}
+
+#whitespace {
+	top: 500%;
 }

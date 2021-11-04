@@ -9,12 +9,12 @@ document.getElementById("about").onmouseout = function() {
 
 function mouseOver1() {
     document.getElementById("about").innerHTML = "ABOUT";
-    document.getElementById("dominic").style.left = "20%";
+    document.getElementById("dominic").style.left = "15%";
 }
 
 function mouseOut1() {
     document.getElementById("about").innerHTML = "DOMINIC";
-    document.getElementById("dominic").style.left = "15%";
+    document.getElementById("dominic").style.left = "10%";
 }
 
 
@@ -32,10 +32,10 @@ document.getElementById("project").onmouseout = function() {
 
 function mouseOver2() {
     document.getElementById("project").innerHTML = "PROJECTS";
-    document.getElementById("adams").style.left = "20%";
+    document.getElementById("adams").style.left = "15%";
 }
 
 function mouseOut2() {
     document.getElementById("project").innerHTML = "ADAMS";
-    document.getElementById("adams").style.left = "15%";
+    document.getElementById("adams").style.left = "10%";
 }

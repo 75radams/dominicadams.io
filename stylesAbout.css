@@ -9,6 +9,7 @@ video#myVideo {
 body {
 	background: black;
 	bottom: 30%;
+	overflow-x: hidden;
 }
 
 h1 {

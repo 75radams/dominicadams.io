@@ -7,8 +7,8 @@ window.onscroll = function() {
 function headerScrollFunction() {
     if (document.body.scrollTop > 125 || document.documentElement.scrollTop > 125) {
         document.getElementById("header").style.fontSize = "65px";
-        document.getElementById("title").innerHTML = "DOMINIC";
         document.getElementById("title").style.fontSize = "20px";
+        document.getElementById("title").innerHTML = "DOMINIC";
     } else {
         document.getElementById("header").style.fontSize = "120px";
         document.getElementById("title").innerHTML = "DOMINIC ADAMS"
