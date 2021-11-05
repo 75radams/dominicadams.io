@@ -1,14 +1,7 @@
 
-video#myVideo {
-	width: 100%;
-	height: auto;
-	vertical-align: middle;
-	position: fixed;
-}
-
-body {
+html, body {
 	background: black;
-	bottom: 30%;
+	max-width: 100%;
 	overflow-x: hidden;
 }
 
@@ -71,6 +64,7 @@ a:hover {
 p{
 	color: white;
 	font-size: 25px;
+	font-family: "Noto Sans", sans-serif;
 	letter-spacing: 1.75;
 	line-height: 1.6;
 }

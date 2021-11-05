@@ -1,6 +1,8 @@
 
-body {
+html, body {
 	background: black;
+	max-width: 100%;
+	overflow-x: hidden;
 }
 
 #head {
@@ -37,11 +39,10 @@ a:hover {
 }
 
 h3 {
+	font-size: 25px;
 	color: whitesmoke;
-	font-size: 35px;
-	margin-top: 20;
-	text-align: center;
-	padding: 20px;
+	font-family: "Noto Sans", sans-serif;
+	text-align: left;
 }
 
 h2 {
@@ -57,7 +58,6 @@ h1 {
 	color: #00ff7f;
 	font-family: "Noto Sans", sans-serif;
 	font-size: 120px;
-	overflow-x: hidden;
 }
 
 #header {
@@ -75,12 +75,19 @@ h2:hover {
 p {
 	color: whitesmoke;
 	font-size: 25px;
+	font-family: "Noto Sans", sans-serif;
 
 }
 
 #p1 {
 	display: none;
-	opacity: 0;
+	opacity: 1;
+	transition: 0.75s;
+}
+
+#p2 {
+	display: none;
+	opacity: 1;
 	transition: 0.75s;
 }
 
@@ -94,7 +101,6 @@ section {
 	opacity: 1;
 	text-align: right;
 	text-align: left;
-	overflow-x: hidden;
 }
 
 #games {
@@ -107,6 +113,28 @@ section {
 	transition: 0.75s;
 }
 
+#gameContent{
+	max-height: 70%;
+	width: 40%;
+	position:absolute;
+	top: 20%;
+	right: 5%;
+	transition: 0.75s;
+	overflow-y: scroll;
+	opacity: 0;
+}
+
 #whitespace {
 	top: 500%;
+}
+
+#backButton {
+	position: absolute;
+	width: 15%;
+	top: 15%;
+	left: 2%;
+	margin: 0px;
+	padding: 0px;
+	transition: 0.75s;
+	background-color: #00ff7f;
 }

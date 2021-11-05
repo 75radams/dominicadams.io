@@ -26,7 +26,6 @@ document.getElementById("IP").onmouseover = function() {
 function showSection(id) {
     var p = document.getElementById(id);
     p.style.display = "block";
-    p.style.opacity = 1;
 }
 
 document.getElementById("IP").onclick = function() {
@@ -34,15 +33,20 @@ document.getElementById("IP").onclick = function() {
 };
 
 function gameSectionMove() {
-    document.getElementById("p1").style.display = "none";
+    document.getElementById("p1").style.opacity = 0;
     document.getElementById("header").style.left = "120%";
-    document.getElementById("header").style.display = "none";
     document.getElementById("WebDev").style.left = "120%";
-    document.getElementById("WebDev").style.display = "none";
-    document.getElementById("IP").style.fontSize = "100px";
     document.getElementById("games").style.textAlign = "left";
-    document.getElementById("games").style.width = "80%";
-    document.getElementById("games").style.left = "20%";
+    document.getElementById("games").style.left = "1%";
+
+    var x = document.getElementsByTagName("h2");
+        for(var i = 0; i < x.length; i++) {
+            x[i].style.color = "#00ff7f";
+        }
+
+    setTimeout(function() {
+        document.getElementById("gameContent").style.opacity = 1;
+        }, 1000);
 
 }
 
@@ -53,9 +57,39 @@ document.getElementById("IP").onmouseout = function() {
 function hideSection(id) {
     var p = document.getElementById(id);
     p.style.display = "none";
-    p.style.opacity = "0";
 }
 
+
+
+document.getElementById("DP").onmouseover = function() {
+    showSection("p2")
+};
+
+document.getElementById("DP").onclick = function() {
+    wdSectionMove()
+};
+
+document.getElementById("DP").onmouseout = function() {
+    hideSection("p2")
+};
+
+function wdSectionMove() {
+    document.getElementById("p2").style.opacity = 0;
+    document.getElementById("header").style.left = "120%";
+    document.getElementById("games").style.left = "120%";
+    document.getElementById("WebDev").style.textAlign = "left";
+    document.getElementById("WebDev").style.left = "1%";
+
+    var x = document.getElementsByTagName("h2");
+        for(var i = 0; i < x.length; i++) {
+            x[i].style.color = "#00ff7f";
+        }
+
+    setTimeout(function() {
+        document.getElementById("gameContent").style.opacity = 1;
+        }, 1000);
+
+}
 
 
 //readjust the home tab
