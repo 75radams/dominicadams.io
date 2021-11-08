@@ -25,21 +25,21 @@ function sectionScrollFunction() {
   }
 
 
-  if (document.body.scrollTop > 825 || document.documentElement.scrollTop > 825) {
+  if (document.body.scrollTop > 925 || document.documentElement.scrollTop > 925) {
       document.getElementById("CM").style.opacity = 1;
   } else {
       document.getElementById("CM").style.opacity = 0;
   }
 
 
-  if (document.body.scrollTop > 1525 || document.documentElement.scrollTop > 1525) {
+  if (document.body.scrollTop > 2100 || document.documentElement.scrollTop > 2100) {
       document.getElementById("SKILLS").style.opacity = 1;
   } else {
       document.getElementById("SKILLS").style.opacity = 0;
   }
 
 
-  if (document.body.scrollTop > 2100 || document.documentElement.scrollTop > 2100) {
+  if (document.body.scrollTop > 2600 || document.documentElement.scrollTop > 2600) {
       document.getElementById("projects").style.opacity = 1;
       document.getElementById("projects").style.right = "20%";
   } else {

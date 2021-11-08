@@ -121,6 +121,19 @@ section {
 	right: 5%;
 	transition: 0.75s;
 	overflow-y: scroll;
+	display: none;
+	opacity: 0;
+}
+
+#WebDevContent{
+	max-height: 70%;
+	width: 40%;
+	position:absolute;
+	top: 20%;
+	right: 5%;
+	transition: 0.75s;
+	overflow-y: scroll;
+	display: none;
 	opacity: 0;
 }
 
@@ -130,11 +143,18 @@ section {
 
 #backButton {
 	position: absolute;
-	width: 15%;
-	top: 15%;
-	left: 2%;
+	transform: scale(0.15, 0.15);
+	top: -20%;
+	left: -14%;
 	margin: 0px;
 	padding: 0px;
 	transition: 0.75s;
-	background-color: #00ff7f;
+	display: none;
+	opacity: 0;
+	transition: 0.75s;
+	
+}
+
+#backButton:hover{
+	cursor: pointer;
 }

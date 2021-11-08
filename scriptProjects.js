@@ -44,10 +44,13 @@ function gameSectionMove() {
             x[i].style.color = "#00ff7f";
         }
 
+    document.getElementById("gameContent").style.display = "block";
+    document.getElementById("backButton").style.display = "block";
     setTimeout(function() {
         document.getElementById("gameContent").style.opacity = 1;
+        document.getElementById("backButton").style.opacity = 1;
         }, 1000);
-
+    
 }
 
 document.getElementById("IP").onmouseout = function() {
@@ -84,11 +87,41 @@ function wdSectionMove() {
         for(var i = 0; i < x.length; i++) {
             x[i].style.color = "#00ff7f";
         }
-
+    
+    document.getElementById("WebDevContent").style.display = "block";
+    document.getElementById("backButton").style.display = "block";
     setTimeout(function() {
-        document.getElementById("gameContent").style.opacity = 1;
+        document.getElementById("WebDevContent").style.opacity = 1;
+        document.getElementById("backButton").style.opacity = 1;
         }, 1000);
 
+}
+
+//back button
+document.getElementById("backButton").onclick = function() {
+    backClick()
+};
+
+function backClick() {
+    document.getElementById("p2").style.opacity = 1;
+    document.getElementById("p1").style.opacity = 1;
+    document.getElementById("header").style.left = "50%";
+    document.getElementById("games").style.left = "50%";
+    document.getElementById("WebDev").style.left = "50%";
+    document.getElementById("WebDev").style.textAlign = "left";
+
+    var x = document.getElementsByTagName("h2");
+        for(var i = 0; i < x.length; i++) {
+            x[i].style.color = "whitesmoke";
+        }
+    document.getElementById("WebDevContent").style.display = "none";
+    document.getElementById("gameContent").style.display = "none";
+    document.getElementById("backButton").style.display = "none";
+    setTimeout(function() {
+        document.getElementById("WebDevContent").style.opacity = 0;
+        document.getElementById("gameContent").style.opacity = 0;
+        document.getElementById("backButton").style.opacity = 0;
+        }, 1000);
 }
 
 

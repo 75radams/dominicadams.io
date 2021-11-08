@@ -120,19 +120,19 @@ section {
 
 #CM {
 	right: 5%;
-	top: 175%;
+	top: 190%;
 	transition: 0.75s;
 }
 
 #SKILLS {
 	left: 5%;
-	top: 260%;
+	top: 335%;
 	transition: 0.75s;
 }
 
 #projects {
 	width: 15%;
-	top: 285%;
+	top: 365%;
 	right: -10%;
 	padding: 0px 10px;
 	transition: 0.75s;
@@ -140,5 +140,5 @@ section {
 }
 
 #whitespace {
-	top: 340%;
+	top: 415%;
 }
