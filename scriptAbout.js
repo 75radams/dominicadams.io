@@ -31,7 +31,6 @@ function sectionScrollFunction() {
       document.getElementById("CM").style.opacity = 0;
   }
 
-
   if (document.body.scrollTop > 2100 || document.documentElement.scrollTop > 2100) {
       document.getElementById("SKILLS").style.opacity = 1;
   } else {

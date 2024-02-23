@@ -41,7 +41,7 @@ function gameSectionMove() {
 
     var x = document.getElementsByTagName("h2");
         for(var i = 0; i < x.length; i++) {
-            x[i].style.color = "#00ff7f";
+            x[i].style.color = "#cc5500";
         }
 
     document.getElementById("gameContent").style.display = "block";
@@ -85,7 +85,7 @@ function wdSectionMove() {
 
     var x = document.getElementsByTagName("h2");
         for(var i = 0; i < x.length; i++) {
-            x[i].style.color = "#00ff7f";
+            x[i].style.color = "#cc5500";
         }
     
     document.getElementById("WebDevContent").style.display = "block";
@@ -112,7 +112,7 @@ function backClick() {
 
     var x = document.getElementsByTagName("h2");
         for(var i = 0; i < x.length; i++) {
-            x[i].style.color = "whitesmoke";
+            x[i].style.color = "beige";
         }
     document.getElementById("WebDevContent").style.display = "none";
     document.getElementById("gameContent").style.display = "none";

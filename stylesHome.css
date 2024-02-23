@@ -26,7 +26,7 @@ h1 {
 	font-weight: 900;
 	text-align: center;
 	position: absolute;
-	color: #00ff7f;
+	color: #cc5500;
 	font-family: sans-serif;
 	transition: 0.75s;
 }
@@ -61,14 +61,14 @@ a {
 	font-weight: 900;
 	text-align: center;
 	position: absolute;
-	color: #00ff7f;
+	color: #cc5500;
 	text-decoration: none;
 	font-family: sans-serif;
 
 }
 
 a:hover {
-	color: white;
+	color: beige;
 	transition: 0.75s;
 
 }

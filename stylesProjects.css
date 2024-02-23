@@ -1,9 +1,16 @@
 
 html, body {
 	background: black;
+	background-image: url("bG11.png");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
 	max-width: 100%;
 	overflow-x: hidden;
 }
+
 
 #head {
 	list-style-type: none;
@@ -19,6 +26,7 @@ html, body {
 
 #title {
 	transition: 0.75s;
+	padding: 30px;
 }
 
 #siteName {
@@ -26,28 +34,27 @@ html, body {
 }
 
 a {
-	padding: 30px;
 	font-size: 30px;
-	color: #00ff7f;
+	color:#cc5500 ;
 	text-decoration: none;
 	font-family: "Noto Sans", sans-serif;
 }
 
-a:hover {
-	color: white;
+#title:hover {
+	color: beige;
 
 }
 
 h3 {
 	font-size: 25px;
-	color: whitesmoke;
+	color: beige;
 	font-family: "Noto Sans", sans-serif;
 	text-align: left;
 }
 
 h2 {
 	font-size: 35px;
-	color: whitesmoke;
+	color: beige;
 	margin-bottom: 20px;
 	font-family: "Noto Sans", sans-serif;
 }
@@ -55,7 +62,7 @@ h2 {
 h1 {
 	position: relative;
 	top: 5%;
-	color: #00ff7f;
+	color: #cc5500;
 	font-family: "Noto Sans", sans-serif;
 	font-size: 120px;
 }
@@ -67,16 +74,21 @@ h1 {
 
 
 h2:hover {
-	color: #00ff7f;
+	color: #cc5500;
 	transition: 0.75s;
 	cursor: pointer;
 }
 
 p {
-	color: whitesmoke;
+	color: beige;
 	font-size: 25px;
 	font-family: "Noto Sans", sans-serif;
 
+}
+
+#vid {
+	min-width: 100%;
+	min-height: 100%;
 }
 
 #p1 {
@@ -101,6 +113,7 @@ section {
 	opacity: 1;
 	text-align: right;
 	text-align: left;
+	
 }
 
 #games {
@@ -142,7 +155,7 @@ section {
 }
 
 #backButton {
-	position: absolute;
+	position: fixed;
 	transform: scale(0.15, 0.15);
 	top: -20%;
 	left: -14%;

@@ -1,0 +1,57 @@
+body {
+    background: black;
+    background-image: url("bG12.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+}
+
+#header {
+    font-size: 100px;
+    color: beige;
+    left: 100%;
+    transition: 0.75s;
+    padding: 20px;
+}
+
+#desc {
+    width: 50%;
+    color:beige;
+    opacity: 0;
+    left: 0;
+    transition: 0.75s;
+    padding: 20px;
+
+}
+
+img {
+    padding-left: 20px;
+}
+
+#vid {
+    size: 50%;
+    padding: 20px;
+    left: 0;
+    opacity: 0;
+    transition: 0.75s;
+    color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+	font-size: 20px;
+	color: beige;
+	text-decoration: none;
+	font-family: "Noto Sans", sans-serif;
+	transition: 0.75s;
+}
+
+a:hover {
+    color: #cc5500;
+}
+
+
