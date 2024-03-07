@@ -9,6 +9,13 @@ video#myVideo {
 
 body {
 	background: black;
+	background-image: url(newBG2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
 }
 
 img {

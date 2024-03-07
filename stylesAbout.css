@@ -1,7 +1,7 @@
 
 html, body {
 	background: black;
-	background-image: url(portfolioImage2.jpg);
+	background-image: url(newBG2.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -113,7 +113,7 @@ section {
 	width: 33%;
 	margin: 40px;
 	padding: 30px;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.4);
 	opacity: 0;
 }
 

@@ -38,7 +38,15 @@ function sectionScrollFunction() {
   }
 
 
-  if (document.body.scrollTop > 2600 || document.documentElement.scrollTop > 2600) {
+//   if (document.body.scrollTop > 2600 || document.documentElement.scrollTop > 2600) {
+//       document.getElementById("projects").style.opacity = 1;
+//       document.getElementById("projects").style.right = "20%";
+//   } else {
+//       document.getElementById("projects").style.opacity = 0;
+//       document.getElementById("projects").style.right = "-20%";
+//   }
+
+  if (document.body.scrollTop/window.innerHeight > 3.1 || document.documentElement.scrollTop/window.innerHeight > 3.1) {
       document.getElementById("projects").style.opacity = 1;
       document.getElementById("projects").style.right = "20%";
   } else {
