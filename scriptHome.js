@@ -39,3 +39,10 @@ function mouseOut2() {
     document.getElementById("project").innerHTML = "ADAMS";
     document.getElementById("adams").style.left = "10%";
 }
+
+
+window.setTimeout(contentFormat, 1000);
+
+function contentFormat() {
+    document.getElementById("tagline").style.opacity = 1;
+}
